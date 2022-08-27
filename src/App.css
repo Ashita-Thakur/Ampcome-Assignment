@@ -1,0 +1,102 @@
+.mainHeader {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.first {
+  background: #F0F4FC;
+}
+.firstMain {
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+}
+.mainText {
+margin-top: 141px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+color: #203765;
+}
+.secText {
+  margin-top: 26px;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+text-align: center;
+
+color: rgba(32, 55, 101, 0.8);
+}
+.mainImage {
+  margin-top: 56px;
+}
+.inputContainer {
+  width: 50%;
+}
+.signinText {
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 125%;
+color: #29375F;
+}
+.username,.password,.slect,.btnClick {
+  height:45px;
+  padding-left: 15px;
+  border: none;
+  background: #FFFFFF;
+border: 1px solid rgba(192, 206, 255, 0.7);
+width: 294px;
+height: 44px;
+border-radius: 6px;
+}
+.username {
+  margin-top: 35px;
+}
+.slect,.btnClick,.password {
+  margin-top: 15px;
+}
+.slect {
+  background: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.btnClick {
+  background: #FC6964;
+  border-radius: 12px;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+border: none;
+color: #FFFFFF;
+}
+/* .slect {
+  color: #616263;
+  background-color: #ececec;
+  border: 1px solid #e3e3e3;
+  outline: none;
+  font-size: 16px;
+  padding-right: 15px;
+} */
+
+
+/* remove default caret for ie */
+
+.slect::-ms-expand {
+  display: none;
+
+}
+
+.slect:focus:invalid {
+  border-color: #FD6347;
+}
+
+.slect:required:valid {
+  border-color: #006400;
+}
